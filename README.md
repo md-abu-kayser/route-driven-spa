@@ -19,7 +19,7 @@ A compact React SPA demonstrating nested routing, data loaders, and component-dr
 
 ## Project overview
 
-#### explore-routes is built with Create React App and demonstrates:
+### explore-routes is built with Create React App and demonstrates:
 
 - Nested layout with an application shell (`Main`) and an `Outlet` for nested routes.
 - Declarative route definitions using `createBrowserRouter` and `RouterProvider` in [`App`](src/App.js).
@@ -35,7 +35,7 @@ A compact React SPA demonstrating nested routing, data loaders, and component-dr
   - `/friends` → [`Friends`](src/components/Friends/Friends.js) — loader fetches users from https://jsonplaceholder.typicode.com/users
   - `/friend/:friendId` → [`FriendDetails`](src/components/FriendDetails/FriendDetails.js) — loader fetches single user by id
 
-## Why this is production-proof
+### Why this is production-proof
 
 - Route-based loaders keep data fetching colocated with routes for predictable behavior and better UX.
 - The project uses Create React App defaults for build and optimization: see [package.json](package.json) scripts (`start`, `build`, `test`).
@@ -45,11 +45,11 @@ A compact React SPA demonstrating nested routing, data loaders, and component-dr
 
 ##### To run locally:
 
-# Install dependencies
+#### Install dependencies
 
 npm install
 
-# Start development server
+#### Start development server
 
 npm start
 

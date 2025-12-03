@@ -101,17 +101,15 @@ The app uses client-side routing; for most static hosts configure fallback to in
 
 ### Contact and Maintainer
 
-**Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
-
 - The route loaders currently return fetch Responses directly. Consider parsing JSON in the loader to centralize error handling and to provide consistent data shapes to components.
   Replace the demo API (jsonplaceholder) with your production API and add authentication/authorization middleware as needed.
   Consider extracting API calls into a small service layer (src/services/users.js) for testability and reuse.
 
-**Name:** Md Abu Kayser - Full-Stack Engineer
-
-- **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
-- **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
-- **Project:** _Explore-Routes-React-Nested-SPA_
+- **_Name:_** Md Abu Kayser - Full-Stack Engineer
+- **_Project:_** _Explore-Routes-React-Nested-SPA_
+- **_Maintainer:_** [md-abu-kayser](https://github.com/md-abu-kayser)
+- **_GitHub:_** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
+- **_Email:_** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
 
 If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
 

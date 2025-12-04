@@ -65,7 +65,7 @@ npm start
 
 ### Testing
 
-Basic test scaffold is present in src/App.test.js. Unit and integration tests can be added with @testing-library/react. Test setup uses src/setupTests.js.
+> Basic test scaffold is present in src/App.test.js. Unit and integration tests can be added with @testing-library/react. Test setup uses src/setupTests.js.
 
 ### Quality, Structure and Extensibility
 
@@ -90,8 +90,6 @@ The app uses client-side routing; for most static hosts configure fallback to in
 - package.json
 - .gitignore
 
-#### Notes For Maintainers
-
 ### License
 
 - This project is licensed under the terms of the **[MIT License](./LICENSE)**.
@@ -115,9 +113,7 @@ If you’d like this README tailored for a specific purpose - such as **hiring m
 
 ---
 
-**This repository is a focused demo for modern React Router usage and can be used as a base for progressive enhancement, route-driven code splitting and UX-focused data loading.**
-
----
+- This repository is a focused demo for modern React Router usage and can be used as a base for progressive route-driven code splitting and UX-focused data loading.\*\*
 
 **Thank you for reviewing this project!**
 

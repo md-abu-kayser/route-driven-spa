@@ -26,7 +26,7 @@ A compact React SPA demonstrating nested routing, data loaders, and component-dr
 - Data loading with route loaders (fetching users from jsonplaceholder) in [`App`](src/App.js) and consumption in [`Friends`](src/components/Friends/Friends.js) and [`FriendDetails`](src/components/FriendDetails/FriendDetails.js).
 - Minimal, component-focused styling (see [`Header.css`](src/components/Header/Header.css) and [`Friend.css`](src/components/Friend/Friend.css)).
 
-2. **Routing and data loading---> High Level**
+2. **Routing and data loading - High Level**
 
 - Root layout: path `/` → [`Main`](src/layout/Main.js).
 - Child routes are defined in [`App`](src/App.js):
@@ -41,7 +41,7 @@ A compact React SPA demonstrating nested routing, data loaders, and component-dr
 - The project uses Create React App defaults for build and optimization: see [package.json](package.json) scripts (`start`, `build`, `test`).
 - Clear component boundaries (Header, pages, small presentational components) ease maintainability and future extension.
 
-## Getting started------> developer quickstart
+## Getting started - developer quickstart
 
 1. **To run locally and Install dependencies:**
 
@@ -103,8 +103,8 @@ The app uses client-side routing; for most static hosts configure fallback to in
   Replace the demo API (jsonplaceholder) with your production API and add authentication/authorization middleware as needed.
   Consider extracting API calls into a small service layer (src/services/users.js) for testability and reuse.
 
-- **_Name:_** Md Abu Kayser - Full-Stack Engineer
 - **_Project:_** _route-driven-spa_
+- **_Name:_** Md Abu Kayser - Full-Stack Engineer
 - **_Maintainer:_** [md-abu-kayser](https://github.com/md-abu-kayser)
 - **_GitHub:_** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 - **_Email:_** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
@@ -113,7 +113,7 @@ If you’d like this README tailored for a specific purpose - such as **hiring m
 
 ---
 
-- This repository is a focused demo for modern React Router usage and can be used as a base for progressive route-driven code splitting and UX-focused data loading.\*\*
+- This repository is a focused demo for modern React Router usage and can be used as a base for progressive route-driven code splitting and UX-focused data loading.
 
 **Thank you for reviewing this project!**
 

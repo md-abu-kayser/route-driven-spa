@@ -1,5 +1,30 @@
 # Explore-Routes - Production-Ready React Nested SPA
 
+<!-- MIT License -->
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+
+<!-- CSS -->
+
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+<!-- Languages & Web Standards -->
+
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+<!-- Infra & Runtime -->
+
+[![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+
+## Plain docs links
+
+- CSS (MDN) docs: [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- JavaScript (MDN) docs: [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- Node.js docs: [https://nodejs.org/](https://nodejs.org/)
+
+---
+
 A compact React SPA demonstrating nested routing, data loaders, and component-driven layout using React Router v6. This project is a clean, production-ready sample suitable for showcasing modern React routing patterns and best practices.
 
 ## Key files and components
@@ -97,7 +122,7 @@ The app uses client-side routing; for most static hosts configure fallback to in
 
 ---
 
-### Contact and Maintainer
+### Contact & Maintainer
 
 - The route loaders currently return fetch Responses directly. Consider parsing JSON in the loader to centralize error handling and to provide consistent data shapes to components.
   Replace the demo API (jsonplaceholder) with your production API and add authentication/authorization middleware as needed.
@@ -106,8 +131,8 @@ The app uses client-side routing; for most static hosts configure fallback to in
 - **_Project:_** _route-driven-spa_
 - **_Name:_** Md Abu Kayser - Full-Stack Engineer
 - **_Maintainer:_** [md-abu-kayser](https://github.com/md-abu-kayser)
-- **_GitHub:_** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 - **_Email:_** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
+- **_GitHub:_** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 
 If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
 
